@@ -1,41 +1,55 @@
-# Website
+# Install LaTeX Locally
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+![Banner](./img/banner.png)
+
+A comprehensive guide to installing and setting up LaTeX locally on Windows, MacOS, and Linux operating systems. This documentation site is built using Docusaurus 3.
+
+## Overview
+
+This project provides detailed documentation for installing LaTeX locally on your machine, helping you move away from cloud-based solutions like Overleaf to a more flexible local development environment.
+
+## Features
+
+- Step-by-step installation guides
+- Visual Studio Code setup instructions
+- MiKTeX configuration
+- Perl installation and setup
+- Video tutorials
+- Cross-platform support (Windows, MacOS, Linux)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js ≥ 18.0
+- Yarn package manager
+- Git
 
 ### Installation
 
-```
-$ yarn
-```
+1. Clone the repository:
+   ```bash
+    git clone https://github.com/FahimFBA/Install-LaTeX.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+     cd Install-LaTeX
+     ```
+3. Install dependencies:
+    ```bash
+    yarn install
+    ```
+4. Start the development server:
+    ```bash
+    yarn start
+    ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Local Development
+## Contributing
 
-```
-$ yarn start
-```
+Contributions are welcome! Please read the [contributing guidelines](./CONTRIBUTING.md) before submitting a pull request.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### Build
+## License
 
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
