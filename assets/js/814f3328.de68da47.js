@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkinstall_la_te_x=self.webpackChunkinstall_la_te_x||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[]}')}}]);
