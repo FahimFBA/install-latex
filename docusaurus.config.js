@@ -16,12 +16,12 @@ const config = {
   url: 'https://fahimfba.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/install-latex/',
+  baseUrl: '/Install-LaTeX/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'FahimFBA', // Usually your GitHub org/user name.
-  projectName: 'install-latex', // Usually your repo name.
+  projectName: 'Install-LaTeX', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -43,8 +43,8 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   '',
         },
         // blog: {
         //   showReadingTime: true,
@@ -68,7 +68,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/banner.png',
       navbar: {
         title: 'Install LaTeX Locally',
         logo: {
@@ -84,7 +84,7 @@ const config = {
           },
           // { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/FahimFBA',
+            href: 'https://github.com/FahimFBA/Install-LaTeX',
             label: 'GitHub',
             position: 'right',
           },
