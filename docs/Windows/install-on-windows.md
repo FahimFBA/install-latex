@@ -29,33 +29,33 @@ You can install LaTeX on any major operating system (Windows, MacOS, and Linux-b
 
 I am going to use the popular [Visual Studio Code](https://code.visualstudio.com/) as my editor. It is a 100% free and robust editor in the world right now. Therefore, make sure to install it before proceeding further.
 
-![VS Code](https://cdn.hashnode.com/res/hashnode/image/upload/v1739972339481/729ecab1-b87e-43d6-baf5-dbda170bcefc.png align="center")
+![Visual Studio Code](./img/vs-code.png)
 
 ## LaTeX Compiler/IDE
 
 To work on LaTeX files, we need a specific compiler. I am going to use [MikTeX](https://miktex.org/). There are other tools out there, but this is the best tool right now (according to me!). It is completely free and supports all major operating systems as well. It also has a built-in IDE, but we are going to use VS Code as our main editor.
 
-![MiKTeX](https://cdn.hashnode.com/res/hashnode/image/upload/v1739972305065/8119b362-3c95-42a0-9458-be211d2ead35.png align="center")
+![MiKTeX](./img/miktex.png)
 
 Download the Windows executable file from the Download section.
 
-![Download MiKTeX](https://cdn.hashnode.com/res/hashnode/image/upload/v1739972408494/71b39032-3adc-426e-8bd9-3a18dc454cf5.png align="center")
+![Download MiKTeX](./img/download-miktex.png)
 
 After the download is finished, install the executable. At the end of the installation, keep the tick in “Check for updates now”.
 
-![Check for update](https://cdn.hashnode.com/res/hashnode/image/upload/v1739972492255/a59f7000-8137-46c5-89f1-4f7151a751b6.png align="center")
+![Check for update](./img/check-for-update.webp)
 
 You will find the MikTeX console in your taskbar. Open that.
 
-![MiKTeX console](https://cdn.hashnode.com/res/hashnode/image/upload/v1739972541856/e7bad89a-4920-4175-a361-ba8fb51f6b20.png align="center")
+![MiKTeX console](./img/miktex-console.png)
 
 Go to the “Updates” tab and click “Update now”. It will install all of those packages.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1739972581283/6d585388-0218-4792-b78e-798c75dee6a6.png align="center")
+![Update](./img/update-packages.png)
 
 At the end, it will prompt you to close the console. Click “OK”. Open MiKTeX again.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1739972610846/926b5aba-0a3a-4c80-a103-fef5a5aafc38.png align="center")
+![Package update finish](./img/package-update-finish.png)
 
 That’s it for this tool.
 
@@ -63,11 +63,11 @@ That’s it for this tool.
 
 The commands we are going to execute for building the LaTeX files are dependent on Perl. As the Windows operating system doesn’t come with a built-in Perl compiler, we are going to install the [Strawberry Perl](https://strawberryperl.com/).
 
-![Perl](https://cdn.hashnode.com/res/hashnode/image/upload/v1739972724660/7a6ad623-c2cc-45bd-bac6-08afdd5512c1.png align="center")
+![Perl](./img/perl.png)
 
 Download the latest MSI package from it.
 
-![Download Strawberry perl](https://cdn.hashnode.com/res/hashnode/image/upload/v1739972749178/33c95897-37af-4be7-a24f-3520c3c1486e.png align="center")
+![Download Strawberry perl](./img/download-strawberry-perl.png)
 
 Install the executable after it gets finished downloading the application.
 
@@ -75,31 +75,31 @@ We need to add Perl’s path to the system environment. Therefore, go into the l
 
 Now search for “env” in the Windows search bar until you find something called “Edit the system environment variable”.
 
-![env](https://cdn.hashnode.com/res/hashnode/image/upload/v1739972898818/7cfdab3a-9ad0-47a7-b0ed-7721b589de97.png align="center")
+![env](./img/env.png)
 
 Now click on “Environment Variables…”.
 
-![System Properties](https://cdn.hashnode.com/res/hashnode/image/upload/v1739972945973/832e011b-0841-4318-a9b8-8b7a8ae42819.png align="center")
+![System Properties](./img/system-properties.png)
 
 Now select “Path” from “System variables” and click “Edit”.
 
-![System variables](https://cdn.hashnode.com/res/hashnode/image/upload/v1739973034756/df3d91f0-907e-42bf-9f1d-883172abd268.png align="center")
+![System variables](./img/system-variables.webp)
 
 Click “New”. Paste the path. Now exit every windows sequentially by clicking on “OK” in each window.
 
-![add var inside system path](https://cdn.hashnode.com/res/hashnode/image/upload/v1739973087965/b73dd5e2-5c35-4399-a645-cb92ba43fe7b.png align="center")
+![add var inside system path](./img/add-var-inside-path.webp)
 
 ## Visual Code Studio Extensions
 
 We need some extensions in VS Code to streamline our workflow.
 
-a) [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop): It is the core extension for working with LaTeX files inside VS Code Studio.
+1. [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop): It is the core extension for working with LaTeX files inside VS Code Studio.
+   
+![LaTeX Workshop](./img/latex-workshop.png)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1739973174197/2311c19b-d56e-4363-a3c0-75a9b0a323ee.png align="center")
-
-b) [Rewrap](https://marketplace.visualstudio.com/items?itemName=stkb.rewrap): It is an amazing tool to wrap longer lines. It helps us to work in a long line in separate lines without breaking any structure or sentence.
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1739973216887/86bacaa6-77ff-441c-acca-08ee6a74d354.png align="center")
+2. [Rewrap](https://marketplace.visualstudio.com/items?itemName=stkb.rewrap): It is an amazing tool to wrap longer lines. It helps us to work in a long line in separate lines without breaking any structure or sentence.
+   
+![Rewrap](./img/rewrap.png)
 
 ## Build LaTeX File
 
@@ -107,7 +107,7 @@ Whenever you want to build any LaTeX file inside VS Code studio, simply open tha
 
 Search for “LaTeX Workshop: Build with recipe”. Enter on that. It will start building the file. Whenever it prompts you to install any missing package, untick the box that says “Always show this dialog” and press on “Install”. I do this as clicking on “Install” on 100/200/more than that prompt windows for building a LaTeX file is very difficult for me.
 
-![package installation](https://cdn.hashnode.com/res/hashnode/image/upload/v1739973393900/0ec3a626-38bb-4fbd-8f98-658cb6bc4853.png align="center")
+![package installation](./img/package-installation.png)
 
 After it finishes building a LaTeX file, you will get the output PDF file inside VS Code. You can open the PDF file directly in VS Code.
 
@@ -117,6 +117,6 @@ That’s it! It is running on your local machine and therefore, there is no rest
 
 ## Conclusion
 
-Thanks for reading this short tutorial. I hope it helped you interact more easily with XAMPP.
+Thanks for reading this short tutorial. I hope it helped you interact more easily with LaTeX.
 
 You can follow me on [GitHub](https://github.com/FahimFBA), [LinkedIn](https://www.linkedin.com/in/fahimfba/), and [You](https://www.linkedin.com/in/fahimfba/)[Tube](https://youtube.com/@FahimAmin) to get more content like this. Also, my [website](https://www.fahimbinamin.com/) is always available for you!
