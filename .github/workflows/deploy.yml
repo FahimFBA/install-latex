@@ -3,8 +3,8 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # Set this to your default branch
-  workflow_dispatch: # Allows manual triggering of the workflow
+      - main  # default branch
+  workflow_dispatch:  # Allows manual triggering of the workflow
 
 permissions:
   contents: write
@@ -21,11 +21,10 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "18"
-          cache: yarn
+          node-version: '18'
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install
 
       - name: Build website
         run: yarn build
